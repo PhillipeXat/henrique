@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900, 800, 700, 600, 500, 400, 300, 200, 100');
+@import url('https://fonts.cdnfonts.com/css/norse');
+
+*, a{ font-family: "Montserrat", Arial, sans-serif; text-decoration: none; color: #edf0f1; }
+html { display: flex; height: 100%; width: 100%; background: linear-gradient(90deg, #1b1b1b, #0e0e0e); }
+audio { visibility: hidden; }
+img{ max-width: 100%; max-height: 100%; margin: auto; border-radius: inherit;}
+
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px;
+    margin: auto;
+    border-top: 3px solid #22b2af;
+    border-bottom: 3px solid #22b2af;
+    box-shadow: 0px 5px 25px #0e0e0e;
+    background: linear-gradient(0deg, #1b1b1b, #202020);
+    z-index: -2;
+}
+
+.welcome-middle-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border: 0px solid red;
+}
+
+.welcome-middle-section p{
+    font-family: "Norse";
+    letter-spacing: 20px;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.welcome-middle-section div{
+    width: 10%;
+}
+
+.welcome-section-pattern{
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    border: 0px solid red;
+    background-image: url("../Images/viking_pattern05.png");
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+#text-section{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: auto;
+    margin: auto;
+    border: 0px solid red;
+}
+
+#text-section div:last-child{
+    width: 70%;
+    border: 0px solid green;
+}
+
+#text-section p{
+    padding: 5px 0px;
+    margin: auto;
+}
+
+#text-section p:first-child{
+    font-family: "Norse";
+    font-weight: bold;
+    font-size: xx-large;
+    letter-spacing: 10px;
+    color: #22b2af;
+}
+
+#text-section p:last-child{
+    text-align: justify;
+    font-size: small;
+    border: 0px solid white;
+}
+
+.text-image{
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    height: auto;
+    border: 5px solid #22b2af;
+    background-color: transparent;
+    margin: auto 20px auto 0;
+    padding: 20px;
+    border-radius: 500px;
+}
+
+#name-line {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border: 0px solid #22b2af;
+}
+
+#name-line div:first-child{
+    width: 10px;
+    height: 10px;
+    border: 3px solid #22b2af;
+    rotate: 45deg;
+}
+
+#name-line div:last-child{
+    width: 100%;
+    height: 0px;
+    margin: auto;
+    border: 2px solid #22b2af;
+}
