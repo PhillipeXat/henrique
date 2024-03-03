@@ -1,16 +1,18 @@
 @keyframes animation{
     0% { scale: 0; transform: rotate(0deg); top: 0%; }
-    50% { scale: 0.5; }
-    100% { scale: 0; transform: rotate(360deg); }
+    50% { scale: 0.35; opacity: 1; }
+    100% { scale: 0; transform: rotate(360deg); opacity: 0; }
+}
+
+#background-letters-container{
+    display: flex;
 }
 
 .background-letter{
     transform: translate(-50%, -50%);
-    width: 40px;
-    height: 40px;
+    width: 100px;
+    height: 100px;
     padding: 25px;
-    border: 3px solid #22b2af;
-    border-radius: 0px;
     background-size: contain;
     box-sizing: border-box;
     z-index: -1;
@@ -37,7 +39,7 @@
 .background-letter:nth-child(3){
     position: absolute;
     top: 61%;
-    left: 88%;
+    left: 83.5%;
     background-image: url("../Images/letter03.png");
 
     animation: animation 23.5s infinite linear;
@@ -91,7 +93,7 @@
 .background-letter:nth-child(9){
     position: absolute;
     top: 75%;
-    left: 18%;
+    left: 28%;
     background-image: url("../Images/letter09.png");
 
     animation: animation 17s infinite linear;
@@ -135,8 +137,8 @@
 
 .background-letter:nth-child(14){
     position: absolute;
-    top: 50%;
-    left: 93%;
+    top: 60%;
+    left: 81.5%;
     background-image: url("../Images/letter14.png");
 
     animation: animation 14s infinite linear;
@@ -163,7 +165,7 @@
 .background-letter:nth-child(17){
     position: absolute;
     top: 76%;
-    left: 92%;
+    left: 85.5%;
     background-image: url("../Images/letter17.png");
 
     animation: animation 24.5s infinite linear;
@@ -180,8 +182,8 @@
 
 .background-letter:nth-child(19){
     position: absolute;
-    top: 62%;
-    left: 5%;
+    top: 52%;
+    left: 13.5%;
     background-image: url("../Images/letter19.png");
 
     animation: animation 23.5s infinite linear;

@@ -1,0 +1,56 @@
+@keyframes rotation-anim{
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.image-pattern{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    margin: -155px;
+    width: 400px;
+    height: 400px;
+    border: 0px solid red;
+    z-index: -1;
+
+    animation: rotation-anim 30s infinite linear;
+}
+
+.image-pattern div{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 0px solid red;
+}
+
+.image-pattern div:nth-child(1){
+    top: -25%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-image: url("../Images/viking_pattern01.png");
+}
+
+.image-pattern div:nth-child(2){
+    bottom: -25%;
+    left: 50%;
+    transform: translate(-50%, 0) rotate(180deg);
+    background-image: url("../Images/viking_pattern02.png");
+}
+
+.image-pattern div:nth-child(3){
+    top: 50%;
+    left: -25%;
+    transform: translate(0, -50%) rotate(-90deg);
+    background-image: url("../Images/viking_pattern03.png");
+}
+
+.image-pattern div:nth-child(4){
+    top: 50%;
+    right: -25%;
+    transform: translate(0, -50%) rotate(90deg);
+    background-image: url("../Images/viking_pattern04.png");
+}
