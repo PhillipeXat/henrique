@@ -1,0 +1,199 @@
+@keyframes animation{
+    0% { scale: 0; transform: rotate(0deg); top: 0%; }
+    50% { scale: 0.35; opacity: 1; }
+    100% { scale: 0; transform: rotate(360deg); opacity: 0; }
+}
+
+#background-letters-container{
+    display: flex;
+}
+
+.background-letter{
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    background-size: contain;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+.background-letter:nth-child(1){
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    background-image: url("../Images/letter01.png");
+
+    animation: animation 16.75s infinite linear;
+}
+
+.background-letter:nth-child(2){
+    position: absolute;
+    top: 85%;
+    left: 37%;
+    background-image: url("../Images/letter02.png");
+
+    animation: animation 22.75s infinite linear;
+}
+
+.background-letter:nth-child(3){
+    position: absolute;
+    top: 61%;
+    left: 83.5%;
+    background-image: url("../Images/letter03.png");
+
+    animation: animation 23.5s infinite linear;
+}
+
+.background-letter:nth-child(4){
+    position: absolute;
+    top: 68%;
+    left: 77%;
+    background-image: url("../Images/letter04.png");
+
+    animation: animation 14.5s infinite linear;
+}
+
+.background-letter:nth-child(5){
+    position: absolute;
+    top: 78%;
+    left: 17%;
+    background-image: url("../Images/letter05.png");
+
+    animation: animation 19.5s infinite linear;
+}
+
+.background-letter:nth-child(6){
+    position: absolute;
+    top: 61%;
+    left: 72%;
+    background-image: url("../Images/letter06.png");
+
+    animation: animation 26.5s infinite linear;
+}
+
+.background-letter:nth-child(7){
+    position: absolute;
+    top: 89%;
+    left: 40%;
+    background-image: url("../Images/letter07.png");
+
+    animation: animation 22s infinite linear;
+}
+
+.background-letter:nth-child(8){
+    position: absolute;
+    top: 73%;
+    left: 71%;
+    background-image: url("../Images/letter08.png");
+
+    animation: animation 17.5s infinite linear;
+}
+
+.background-letter:nth-child(9){
+    position: absolute;
+    top: 75%;
+    left: 28%;
+    background-image: url("../Images/letter09.png");
+
+    animation: animation 17s infinite linear;
+}
+
+.background-letter:nth-child(10){
+    position: absolute;
+    top: 66%;
+    left: 33%;
+    background-image: url("../Images/letter10.png");
+
+    animation: animation 19s infinite linear;
+}
+
+.background-letter:nth-child(11){
+    position: absolute;
+    top: 54%;
+    left: 10%;
+    background-image: url("../Images/letter11.png");
+
+    animation: animation 21s infinite linear;
+}
+
+.background-letter:nth-child(12){
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    background-image: url("../Images/letter12.png");
+
+    animation: animation 27s infinite linear;
+}
+
+.background-letter:nth-child(13){
+    position: absolute;
+    top: 76.5%;
+    left: 50%;
+    background-image: url("../Images/letter13.png");
+
+    animation: animation 18s infinite linear;
+}
+
+.background-letter:nth-child(14){
+    position: absolute;
+    top: 60%;
+    left: 81.5%;
+    background-image: url("../Images/letter14.png");
+
+    animation: animation 14s infinite linear;
+}
+
+.background-letter:nth-child(15){
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    background-image: url("../Images/letter15.png");
+
+    animation: animation 21s infinite linear;
+}
+
+.background-letter:nth-child(16){
+    position: absolute;
+    top: 48%;
+    left: 58%;
+    background-image: url("../Images/letter16.png");
+
+    animation: animation 19.5s infinite linear;
+}
+
+.background-letter:nth-child(17){
+    position: absolute;
+    top: 76%;
+    left: 85.5%;
+    background-image: url("../Images/letter17.png");
+
+    animation: animation 24.5s infinite linear;
+}
+
+.background-letter:nth-child(18){
+    position: absolute;
+    top: 74.5%;
+    left: 66%;
+    background-image: url("../Images/letter18.png");
+
+    animation: animation 19.5s infinite linear;
+}
+
+.background-letter:nth-child(19){
+    position: absolute;
+    top: 52%;
+    left: 13.5%;
+    background-image: url("../Images/letter19.png");
+
+    animation: animation 23.5s infinite linear;
+}
+
+.background-letter:nth-child(20){
+    position: absolute;
+    top: 45%;
+    left: 83%;
+    background-image: url("../Images/letter20.png");
+
+    animation: animation 20.5s infinite linear;
+}

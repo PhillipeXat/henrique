@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900, 800, 700, 600, 500, 400, 300, 200, 100');
+@import url('https://fonts.cdnfonts.com/css/norse');
+
+*, a{ font-family: "Montserrat", Arial, sans-serif; text-decoration: none; color: #edf0f1; }
+html { height: 100%; width: 100%; background: linear-gradient(90deg, #1b1b1b, #0e0e0e); }
+img{ max-width: 100%; max-height: 100%; margin: auto; border-radius: inherit; }
+
+@keyframes fadein-anim{
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+#fadein-overlay{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    z-index: 1000;
+
+    animation: fadein-anim 2s ease-in-out;
+}
+
+#main-container{ 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border: 0px solid red;
+}
+
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    border-top: 3px solid #22b2af;
+    border-bottom: 3px solid #22b2af;
+    box-shadow: 0px 5px 25px #0e0e0e;
+    background: linear-gradient(0deg, #1b1b1b, #202020);
+    z-index: -2;
+}
+
+.welcome-middle-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border: 0px solid red;
+}
+
+.welcome-middle-section p{
+    text-align: center;
+    font-family: "Norse";
+    letter-spacing: 20px;
+    font-weight: bolder;
+    font-size: xx-large;
+    border: 0px solid blue;
+}
+
+.welcome-middle-section img{
+    width: 6.5%;
+    margin: auto 125px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 0px solid blue;
+    z-index: 100;
+}
+
+.welcome-section-pattern{
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    border: 0px solid red;
+    background-image: url("../Images/viking_pattern05.png");
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+#photo-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: auto;
+    margin-top: 100px;
+    border: 0px solid red;
+    z-index: 100;
+}
+
+.my-photo{
+    width: 40%;
+    border: 5px solid #22b2af;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 1000px;
+    margin: 0 auto 50px auto;
+    border: 5px solid #22b2af;
+}
+
+.my-photo img:first-child{
+    size-adjust: inherit;
+    border: 0px solid red;
+}
+
+.photo-section-text{
+    flex-basis: 75%;
+    flex-direction: column;
+    margin: auto 0 auto 15px;
+    border: 0px solid blue;
+}
+
+.photo-section-text p:first-child{
+    font-family: "Norse";
+    font-weight: bold;
+    font-size: xx-large;
+    letter-spacing: 10px;
+    color: #22b2af;
+    margin: 5px 0;
+}
+
+.photo-section-text p:last-child{
+    text-align: justify;
+    font-size: small;
+    border: 0px solid white;
+    margin: 5px 0;
+}
+
+#name-line {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border: 0px solid #22b2af;
+}
+
+#name-line div:first-child{
+    width: 10px;
+    height: 10px;
+    border: 3px solid #22b2af;
+    rotate: 45deg;
+}
+
+#name-line div:last-child{
+    width: 100%;
+    height: 0px;
+    margin: auto;
+    border: 2px solid #22b2af;
+}

@@ -1,0 +1,49 @@
+
+#background-picture01{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 40%;
+    height: auto;
+    margin: auto;
+    padding: 0;
+    border: 0px solid blue;
+    z-index: 0
+}
+
+#background-picture02{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 40%;
+    height: auto;
+    margin: auto;
+    padding: 0;
+    border: 0px solid blue;
+    z-index: 0;
+}
+
+#background-picture03{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 20%;
+    height: auto;
+    margin: auto;
+    padding: 0;
+    rotate: 180deg;
+    border: 0px solid blue;
+    z-index: -10;
+}
+
+#background-picture04{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 20%;
+    height: auto;
+    margin: auto;
+    padding: 0;
+    border: 0px solid blue;
+    z-index: -10;
+}
