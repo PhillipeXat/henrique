@@ -1,15 +1,6 @@
-const bottomSection = document.getElementById("bottom-section");
-const myName = document.getElementById("name");
-
-function Deactivate(){
-    bottomSection.style.display = "none";
-    myName.style.display = "none";
+function DeactivateOverlay(){
+    const overaly = document.getElementById("fadein-overlay");
+    overaly.style.visibility = "hidden";
 }
 
-function Activate(){
-    bottomSection.style.display = "flex";
-    myName.style.display = "flex";
-}
-
-Deactivate();
-setTimeout(Activate, 2000);
+setTimeout(DeactivateOverlay, 2000);
